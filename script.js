@@ -59,7 +59,7 @@ const messages = [
     "Are you positive?",
     "Baby please...",
     "Just think about it!",
-    "Who will go see BTS with you?,
+    "Who will go see BTS with you?",
     "If you say no, I will be really sad...",
     "I will be very sad...",
     "I will be very very very sad...",
