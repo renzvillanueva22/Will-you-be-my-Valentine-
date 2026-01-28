@@ -54,9 +54,11 @@
 })();
 */
 const messages = [
+    "Baby you pressed the wrong button.",
     "Are you sure?",
     "Really sure??",
     "Are you positive?",
+    "I thought I was the dyslexic one...",
     "Baby please...",
     "Just think about it!",
     "Who will go see BTS with you?",
@@ -64,9 +66,13 @@ const messages = [
     "I will be very sad...",
     "I will be very very very sad...",
     "The tickets are under my name!",
+    "I'll pass away if you press again...",
+    "Renz passed away",
+    "REALLY??? You still pressed it?"
     "Ok fine, I will stop asking...",
     "Last Chance!",
-    "Just kidding, say yes please! ❤️"
+    "Just kidding, say yes please! ❤️",
+    "I think you meant to press yes..."
 ];
 
 let messageIndex = 0;
@@ -77,7 +83,7 @@ function handleNoClick() {
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
-    yesButton.style.fontSize = `${currentSize * 1.2}px`;
+    yesButton.style.fontSize = `${currentSize * 1.3}px`;
 }
 
 function handleYesClick() {
