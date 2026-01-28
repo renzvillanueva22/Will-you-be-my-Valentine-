@@ -68,7 +68,7 @@ const messages = [
     "The tickets are under my name!",
     "I'll pass away if you press again...",
     "Renz passed away",
-    "REALLY??? You still pressed it?"
+    "REALLY??? You still pressed it?",
     "Ok fine, I will stop asking...",
     "Last Chance!",
     "Just kidding, say yes please! ❤️",
